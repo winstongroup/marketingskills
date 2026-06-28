@@ -26,6 +26,7 @@ Quick reference for AI agents to discover tool capabilities and integration meth
 | ahrefs | SEO | ✓ | - | [✓](clis/ahrefs.js) | - | [ahrefs.md](integrations/ahrefs.md) |
 | dataforseo | SEO | ✓ | - | [✓](clis/dataforseo.js) | ✓ | [dataforseo.md](integrations/dataforseo.md) |
 | keywords-everywhere | SEO | ✓ | - | [✓](clis/keywords-everywhere.js) | - | [keywords-everywhere.md](integrations/keywords-everywhere.md) |
+| rankparse | SEO | ✓ | ✓ | [✓](clis/rankparse.js) | - | [rankparse.md](integrations/rankparse.md) |
 | clearbit | Data Enrichment | ✓ | - | [✓](clis/clearbit.js) | ✓ | [clearbit.md](integrations/clearbit.md) |
 | apollo | Data Enrichment | ✓ | - | [✓](clis/apollo.js) | - | [apollo.md](integrations/apollo.md) |
 | zoominfo | Data Enrichment | ✓ | ✓ | [✓](clis/zoominfo.js) | - | [zoominfo.md](integrations/zoominfo.md) |
@@ -46,6 +47,7 @@ Quick reference for AI agents to discover tool capabilities and integration meth
 | customer-io | Email | ✓ | - | [✓](clis/customer-io.js) | ✓ | [customer-io.md](integrations/customer-io.md) |
 | sendgrid | Email | ✓ | - | [✓](clis/sendgrid.js) | ✓ | [sendgrid.md](integrations/sendgrid.md) |
 | resend | Email | ✓ | ✓ | [✓](clis/resend.js) | ✓ | [resend.md](integrations/resend.md) |
+| sequenzy | Email | ✓ | ✓ | ✓ | - | [sequenzy.md](integrations/sequenzy.md) |
 | nitrosend | Email | ✓ | ✓ | - | - | [nitrosend.md](integrations/nitrosend.md) |
 | kit | Email | ✓ | - | [✓](clis/kit.js) | ✓ | [kit.md](integrations/kit.md) |
 | beehiiv | Newsletter | ✓ | - | [✓](clis/beehiiv.js) | - | [beehiiv.md](integrations/beehiiv.md) |
@@ -53,8 +55,17 @@ Quick reference for AI agents to discover tool capabilities and integration meth
 | postmark | Email | ✓ | - | [✓](clis/postmark.js) | ✓ | [postmark.md](integrations/postmark.md) |
 | brevo | Email/SMS | ✓ | - | [✓](clis/brevo.js) | ✓ | [brevo.md](integrations/brevo.md) |
 | activecampaign | Email/CRM | ✓ | - | [✓](clis/activecampaign.js) | ✓ | [activecampaign.md](integrations/activecampaign.md) |
+| twilio | SMS/Voice | ✓ | - | ✓ | ✓ | [twilio.md](integrations/twilio.md) |
+| plivo | SMS/Voice | ✓ | - | - | ✓ | [plivo.md](integrations/plivo.md) |
+| postscript | SMS | ✓ | - | - | - | [postscript.md](integrations/postscript.md) |
+| attentive | SMS | ✓ | - | - | - | [attentive.md](integrations/attentive.md) |
+| audiencetap | SMS/Email | ✓ | - | - | - | [audiencetap.md](integrations/audiencetap.md) |
 | hunter | Email Outreach | ✓ | - | [✓](clis/hunter.js) | - | [hunter.md](integrations/hunter.md) |
 | snov | Email Outreach | ✓ | - | [✓](clis/snov.js) | - | [snov.md](integrations/snov.md) |
+| truelist | Email Verification | ✓ | ✓ | - | ✓ | [truelist.md](integrations/truelist.md) |
+| github | Developer Intent | ✓ | - | [✓](clis/github-prospects.js) | ✓ | [github.md](integrations/github.md) |
+| firecrawl | Site Scraping | ✓ | ✓ | - | ✓ | [firecrawl.md](integrations/firecrawl.md) |
+| browserbase | Site Scraping | ✓ | ✓ | - | ✓ | [browserbase.md](integrations/browserbase.md) |
 | lemlist | Email Outreach | ✓ | - | [✓](clis/lemlist.js) | - | [lemlist.md](integrations/lemlist.md) |
 | instantly | Email Outreach | ✓ | - | [✓](clis/instantly.js) | - | [instantly.md](integrations/instantly.md) |
 | google-ads | Ads | ✓ | ✓ | [✓](clis/google-ads.js) | ✓ | [google-ads.md](integrations/google-ads.md) |
@@ -73,6 +84,7 @@ Quick reference for AI agents to discover tool capabilities and integration meth
 | introw | Partner Ecosystem | - | ✓ | - | - | [introw.md](integrations/introw.md) |
 | pendo | Product Analytics | ✓ | - | [✓](clis/pendo.js) | - | [pendo.md](integrations/pendo.md) |
 | similarweb | Competitive Intelligence | ✓ | - | [✓](clis/similarweb.js) | - | [similarweb.md](integrations/similarweb.md) |
+| exa | AI Search | ✓ | ✓ | [✓](clis/exa.js) | ✓ | [exa.md](integrations/exa.md) |
 | firehose | Competitive Intelligence | ✓ | - | - | - | [firehose.md](integrations/firehose.md) |
 | sparktoro | Audience Research | - | - | - | - | [sparktoro.md](integrations/sparktoro.md) |
 | rb2b | Visitor Identification | ✓ | - | - | - | [rb2b.md](integrations/rb2b.md) |
@@ -80,6 +92,8 @@ Quick reference for AI agents to discover tool capabilities and integration meth
 | airops | AI Content | ✓ | - | [✓](clis/airops.js) | - | [airops.md](integrations/airops.md) |
 | buffer | Social | ✓ | - | [✓](clis/buffer.js) | - | [buffer.md](integrations/buffer.md) |
 | wistia | Video | ✓ | - | [✓](clis/wistia.js) | - | [wistia.md](integrations/wistia.md) |
+| heygen | Video | ✓ | ✓ | - | ✓ | [heygen.md](integrations/heygen.md) |
+| hyperframes | Video | - | - | ✓ | ✓ | [hyperframes.md](integrations/hyperframes.md) |
 | trustpilot | Reviews | ✓ | - | [✓](clis/trustpilot.js) | - | [trustpilot.md](integrations/trustpilot.md) |
 | g2 | Reviews | ✓ | - | [✓](clis/g2.js) | - | [g2.md](integrations/g2.md) |
 | onesignal | Push | ✓ | - | [✓](clis/onesignal.js) | ✓ | [onesignal.md](integrations/onesignal.md) |
@@ -92,6 +106,7 @@ Quick reference for AI agents to discover tool capabilities and integration meth
 | contentful | Headless CMS | ✓ | - | ✓ | ✓ | [contentful.md](integrations/contentful.md) |
 | strapi | Headless CMS | ✓ | - | ✓ | ✓ | [strapi.md](integrations/strapi.md) |
 | composio | Integration Layer | ✓ | ✓ | ✓ | ✓ | [composio.md](integrations/composio.md) |
+| cogny | Integration Layer | - | ✓ | - | - | [cogny.md](integrations/cogny.md) |
 
 ---
 
@@ -124,8 +139,9 @@ Search engine optimization tools for keyword research, rank tracking, and site a
 | **ahrefs** | Backlink analysis, content research | Best for links |
 | **dataforseo** | SERP tracking, backlinks, on-page audits | Comprehensive API |
 | **keywords-everywhere** | Quick keyword research, traffic estimates | Credit-based |
+| **rankparse** | Cheap, agent-friendly backlinks + domain data | Credit-based, MCP available |
 
-**Agent recommendation**: Google Search Console is essential (free). Add Semrush or Ahrefs for competitive research. DataForSEO for programmatic SERP data. Keywords Everywhere for quick keyword lookups.
+**Agent recommendation**: Google Search Console is essential (free). Add Semrush or Ahrefs for competitive research. DataForSEO for programmatic SERP data. Keywords Everywhere for quick keyword lookups. RankParse for agent workflows where per-call cost matters — backlinks, domain authority, and tech stack at a fraction of enterprise pricing.
 
 ### CRM
 
@@ -174,6 +190,7 @@ Email marketing, transactional email, and automation platforms.
 | **customer-io** | Behavior-based messaging | - |
 | **sendgrid** | Transactional email at scale | - |
 | **resend** | Developer-friendly transactional | ✓ |
+| **sequenzy** | Lifecycle email, sequences, transactional email | ✓ |
 | **kit** | Creator/newsletter focused | - |
 | **beehiiv** | Newsletter platform | - |
 | **klaviyo** | E-commerce email + SMS | - |
@@ -181,7 +198,24 @@ Email marketing, transactional email, and automation platforms.
 | **brevo** | Email + SMS, popular in EU | - |
 | **activecampaign** | Email automation + CRM | - |
 
-**Agent recommendation**: Resend for transactional (dev-friendly). Postmark for deliverability. Customer.io for advanced automation. Kit for creators. Beehiiv for newsletters. Klaviyo for e-commerce email/SMS. ActiveCampaign for email + CRM combo.
+**Agent recommendation**: Resend for transactional (dev-friendly). Sequenzy for lifecycle email, sequences, and agent-driven email marketing. Postmark for deliverability. Customer.io for advanced automation. Kit for creators. Beehiiv for newsletters. Klaviyo for e-commerce email/SMS. ActiveCampaign for email + CRM combo.
+
+### SMS / Messaging
+
+SMS and MMS marketing platforms and programmable messaging APIs.
+
+| Tool | Best For | MCP Available |
+|------|----------|:-------------:|
+| **klaviyo** | DTC ecom already on Klaviyo email | - |
+| **postscript** | Shopify DTC, SMS-first depth | - |
+| **attentive** | Mid-market+ DTC, full-service | - |
+| **twilio** | Custom API builds, transactional, dev-first | - |
+| **plivo** | Twilio alternative, lower per-send cost | - |
+| **audiencetap** | DTC with AI-forward creative + on-pack QR opt-in | - |
+| **brevo** | EU SMB email + SMS combo | - |
+| **customer-io** | Behavior-based SMS automation | - |
+
+**Agent recommendation**: Klaviyo SMS for ecom already on Klaviyo email. Postscript for Shopify-first depth. Attentive for mid-market+ wanting concierge support. Twilio (or Plivo for lower cost) for custom builds and transactional/auth. AudienceTap when AI creative or on-pack QR opt-in matters.
 
 ### Advertising
 
@@ -260,13 +294,15 @@ Social media scheduling, management, and analytics.
 
 ### Video
 
-Video hosting, analytics, and engagement.
+Video hosting, creation, and AI generation.
 
 | Tool | Best For | Notes |
 |------|----------|-------|
-| **wistia** | Video hosting, marketing analytics | Best for marketing video |
+| **wistia** | Video hosting, marketing analytics | Best for marketing video hosting |
+| **heygen** | AI avatars, talking-head videos | MCP server available |
+| **hyperframes** | Programmatic video from HTML/CSS | Open source, agent-native |
 
-**Agent recommendation**: Wistia for marketing video hosting with analytics.
+**Agent recommendation**: HeyGen for AI avatar videos (MCP-enabled). Hyperframes for templated, data-driven video from code. Wistia for hosting and analytics.
 
 ### Data Enrichment
 
@@ -280,6 +316,37 @@ Company and person data enrichment for sales and marketing.
 | **clay** | Waterfall enrichment, outbound | 75+ data providers |
 
 **Agent recommendation**: Clearbit for enrichment. Apollo for prospecting and outbound. ZoomInfo for enterprise B2B data with intent signals. Clay for waterfall enrichment across multiple providers.
+
+### Email Verification
+
+Pre-outreach email deliverability validation.
+
+| Tool | Best For | Notes |
+|------|----------|-------|
+| **truelist** | Bulk + single email deliverability validation | Returns `email_state` (ok / email_invalid / risky / unknown / accept_all) + `email_sub_state`. MCP server + 7-language SDKs available. |
+
+**Agent recommendation**: Truelist for any prospect list before outreach — Apollo/ZoomInfo/Hunter data accuracy is typically 60–80%, validation is non-negotiable to keep sender reputation healthy.
+
+### Developer Intent / GitHub
+
+Discovery channel for dev-tool SaaS prospecting via GitHub stargazers, forkers, and watchers.
+
+| Tool | Best For | Notes |
+|------|----------|-------|
+| **github** | Stargazers / forks / watchers of competitor or adjacent repos | Public API; pair with Apollo/Clay/Hunter for email enrichment |
+
+**Agent recommendation**: Use `github-prospects.js` CLI to pull stargazers/forks of 3–5 anchor repos (competitors, category leaders, complementary tools). Filter to users with `company` field set, then enrich missing emails via Apollo or Hunter, then validate via Truelist before outreach.
+
+### Site Scraping (single-target only)
+
+Programmatic page extraction for **individual public business sites** — not for the platforms hosting prospects (Google Maps, LinkedIn, Yelp, Apollo, etc.).
+
+| Tool | Best For | Notes |
+|------|----------|-------|
+| **firecrawl** | Page → clean markdown / structured extraction | API + MCP; lower overhead for "just give me the content" |
+| **browserbase** | Real Chromium when rendering, interaction, or session state is required | API + MCP (Stagehand); use when Firecrawl can't handle the page |
+
+**Agent recommendation**: Default to Firecrawl for static-ish pages and structured extraction. Use Browserbase when the site requires JS rendering, form interaction, cookie consent, or auth — and when you want session recordings for debugging. **For both: discovery happens on platforms (manual browser); extraction happens on the prospect's own website URL.** Don't point either tool at LinkedIn, Google Maps, Yelp, or similar.
 
 ### Reviews
 
@@ -383,6 +450,16 @@ AI-powered content generation and optimization platforms.
 
 **Agent recommendation**: AirOps for building AI content workflows that generate SEO-optimized content at scale.
 
+### AI Search
+
+AI-powered web search APIs built for LLMs and agents. Return structured results with on-demand text, highlights, and summaries.
+
+| Tool | Best For | Notes |
+|------|----------|-------|
+| **exa** | Neural/semantic web search, content research, competitor discovery | Search + findSimilar + Contents; MCP and SDKs available |
+
+**Agent recommendation**: Exa for neural search over the open web — content research, competitor/similar-page discovery, link prospecting, news monitoring, and audience research. Pairs well with seo-audit, content-strategy, and competitor-profiling skills.
+
 ### Partner Ecosystem
 
 Partner data sharing, co-sell, and ecosystem management.
@@ -464,6 +541,7 @@ These tools have Model Context Protocol servers available, enabling direct agent
 - **outreach** - Sales engagement sequences
 - **crossbeam** - Partner ecosystem data
 - **introw** - Partner relationship management
+- **exa** - AI-powered web search for LLMs and agents
 
 To use MCP tools, ensure the appropriate MCP server is configured in your environment.
 
@@ -476,6 +554,16 @@ To use MCP tools, ensure the appropriate MCP server is configured in your enviro
 - **Marketing tool mapping**: See [tools/composio/marketing-tools.md](composio/marketing-tools.md)
 
 Use Composio when you need MCP access to OAuth-heavy tools. Prefer native MCP servers (GA4, Stripe, Mailchimp, etc.) when available — they have deeper coverage.
+
+### Cogny Integration
+
+[Cogny](integrations/cogny.md) is a hosted MCP gateway focused on marketing channels — one federated MCP URL with managed OAuth across every channel you've connected. Narrower than Composio (marketing-only) and useful when you want SEO, paid social, and privacy-friendly analytics behind a single MCP login.
+
+- **Setup**: connect channels at [cogny.com](https://cogny.com), then in Claude.ai go to Settings → Connectors → Add custom connector and paste `https://app.cogny.com/mcp`
+- **Channels**: Search Console, Bing Webmaster, Semrush, LinkedIn Ads, Reddit Ads, TikTok Ads, Plausible, Fathom
+- **Pricing**: Solo plan starts at $9/mo (7-day trial)
+
+Use Cogny when you only need marketing channels and want to avoid running your own OAuth proxy. Prefer native APIs when you need deep, custom control of a single tool.
 
 ---
 
